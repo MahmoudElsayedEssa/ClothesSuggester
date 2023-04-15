@@ -8,7 +8,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.clothessuggester.R
 import com.example.clothessuggester.data.network.getDayName
 import com.example.clothessuggester.databinding.WeatherItemBinding
-import com.projects.whattowear.model.Interval
+import com.example.clothessuggester.data.model.Interval
 
 class MainAdapter(private val listener: (item: Int) -> Unit) :
     ListAdapter<Interval, MainAdapter.ItemViewHolder>(DaysDiffUtil()) {

@@ -1,6 +1,6 @@
 package com.example.clothessuggester.data.network
 
-import com.projects.whattowear.model.Interval
+import com.example.clothessuggester.data.model.Interval
 
 interface WeatherCallback {
     fun onSuccess(weatherResponse:  List<Interval>)

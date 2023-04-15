@@ -1,5 +1,5 @@
-package com.projects.whattowear.model
+package com.example.clothessuggester.data.model
 
 enum class DayWeatherType {
-    COLD, HOT, WORM
+    COLD, HOT
 }

@@ -5,7 +5,7 @@ import com.example.clothessuggester.data.local.PrefsUtil.initPrefs
 import com.example.clothessuggester.data.local.PrefsUtil.startTimeAndImageId
 import com.example.clothessuggester.data.network.TomorrowApiClient
 import com.example.clothessuggester.data.network.WeatherCallback
-import com.projects.whattowear.model.Interval
+import com.example.clothessuggester.data.model.Interval
 
 class MainPresenter(
     private val tomorrowApiClient: TomorrowApiClient,

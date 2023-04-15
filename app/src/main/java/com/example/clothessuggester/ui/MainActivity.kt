@@ -1,6 +1,5 @@
 package com.example.clothessuggester.ui
 
-import android.content.Context
 import android.content.SharedPreferences
 import android.os.Bundle
 import android.util.Log
@@ -10,7 +9,7 @@ import com.example.clothessuggester.BuildConfig
 import com.example.clothessuggester.data.local.PrefsUtil.SHARED_PREFS_NAME
 import com.example.clothessuggester.data.network.TomorrowApiClient
 import com.example.clothessuggester.databinding.ActivityMainBinding
-import com.projects.whattowear.model.Interval
+import com.example.clothessuggester.data.model.Interval
 
 class MainActivity : AppCompatActivity(), MainView {
     private lateinit var binding: ActivityMainBinding

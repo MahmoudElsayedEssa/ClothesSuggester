@@ -8,9 +8,9 @@ import com.example.clothessuggester.data.network.Constants.RESPONSE_MIN_TEMPERAT
 import com.example.clothessuggester.data.network.Constants.RESPONSE_START_TIME
 import com.example.clothessuggester.data.network.Constants.RESPONSE_VALUES
 import com.example.clothessuggester.data.network.Constants.TIME_LINES
-import com.projects.whattowear.model.DayWeatherType
-import com.projects.whattowear.model.Interval
-import com.projects.whattowear.model.Temperature
+import com.example.clothessuggester.data.model.DayWeatherType
+import com.example.clothessuggester.data.model.Interval
+import com.example.clothessuggester.data.model.Temperature
 import org.json.JSONObject
 import java.text.SimpleDateFormat
 import java.util.*
@@ -112,21 +112,3 @@ fun getDayName(dateString: String, formatPattern: String): String {
     return SimpleDateFormat(formatPattern, Locale.getDefault()).format(date)
 }
 
-
-//private fun saveStartTimeAndImageId(values: List<Pair<String, Int>>) {
-//    val delimiter1 = "|"
-//    val delimiter2 = ","
-//    val serializedPairs = values.joinToString(delimiter1) { "${it.first}$delimiter2${it.second}" }
-//    PrefsUtil.startTimeAndImageId = serializedPairs
-//
-//}
-//
-//private fun getStartTimeAndImageId(): List<Pair<String, Int>>? {
-//    val delimiter1 = "|"
-//    val delimiter2 = ","
-//    val serializedPairsArray = PrefsUtil.startTimeAndImageId?.split(delimiter1)?.toTypedArray()
-//    return serializedPairsArray?.map { serializedPair ->
-//        val pairValues = serializedPair.split(delimiter2)
-//        Pair(pairValues[0], pairValues[1].toInt())
-//    }
-//}

@@ -1,4 +1,4 @@
-package com.projects.whattowear.model
+package com.example.clothessuggester.data.model
 
 data class Temperature(
     val temperatureMin: Double,
