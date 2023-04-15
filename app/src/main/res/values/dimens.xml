@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="very_larg">279dp</dimen>
+    <dimen name="width_weather">60dp</dimen>
+    <dimen name="zero">0dp</dimen>
+    <dimen name="text_medium">20sp</dimen>
+</resources>

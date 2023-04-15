@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="backgraound_weather">#FAFAFA</color>
+    <color name="background">@color/white</color>
+    <color name="black">#FF000000</color>
+    <color name="on_primary">@color/white</color>
+    <color name="on_secondary">@color/tertiary_38</color>
+    <color name="primary">#ACDEF3</color>
+    <color name="secondary">#DE53ADE0</color>
+    <color name="tertiary_10">#1A000000</color>
+    <color name="tertiary_38">#61000000</color>
+    <color name="tertiary_60">#99000000</color>
+    <color name="tertiary_87">#DE000000</color>
+    <color name="unselected_chip">@color/primary</color>
+    <color name="white">#DEFFFFFF</color>
+    <dimen name="font_size_body">6sp</dimen>
+    <dimen name="font_size_label">8sp</dimen>
+    <dimen name="font_size_title">2sp</dimen>
+    <dimen name="font_size_title_large">20sp</dimen>
+    <dimen name="font_size_title_medium">12sp</dimen>
+    <dimen name="font_size_title_x_large">22sp</dimen>
+    <dimen name="font_size_title_xx_large">26sp</dimen>
+    <dimen name="radius_medium">16dp</dimen>
+    <dimen name="radius_normal">8dp</dimen>
+    <dimen name="spacing_large">24dp</dimen>
+    <dimen name="spacing_medium">16dp</dimen>
+    <dimen name="spacing_normal">8dp</dimen>
+    <dimen name="spacing_small">4dp</dimen>
+    <dimen name="spacing_xlarge">32dp</dimen>
+    <dimen name="text_medium">20sp</dimen>
+    <dimen name="very_larg">279dp</dimen>
+    <dimen name="width_weather">60dp</dimen>
+    <dimen name="zero">0dp</dimen>
+    <string name="app_name">Clothes Suggester</string>
+    <string name="cairo">Cairo</string>
+    <string name="date_format">%s %s</string>
+    <string name="happy_day_for_you">Happy day for you</string>
+    <string name="next">Next</string>
+    <string name="stay_classy_with_us">    Stay classy with us</string>
+    <string name="suggestions">you can wear this to match the weather</string>
+    <string name="temperature_format">%d°C</string>
+    <string name="today">Today</string>
+    <string name="weatherDegree">12 Cٌّّّْْْ</string>
+    <style name="ChipStyle" parent="Widget.MaterialComponents.Chip.Filter">
+            <item name="chipBackgroundColor">@color/chip_background_color</item>
+            <item name="android:textColor">@color/chip_text_color</item>
+            <item name="android:textSize">14sp</item>
+            <item name="android:fontFamily">@font/roboto_medium</item>
+            <item name="checkedIconVisible">false</item>
+            <item name="chipStartPadding">8dp</item>
+            <item name="chipEndPadding">8dp</item>
+        </style>
+    <style name="TextStyle" parent="@android:style/TextAppearance.Widget.TextView">
+        <item name="android:textColor">@color/tertiary_87</item>
+        <item name="android:fontFamily">@font/roboto</item>
+    </style>
+    <style name="Theme.ClothesSuggester" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+<item name="android:statusBarColor">@color/white</item>
+            <item name="colorPrimary">#53ADE0</item>
+            <item name="colorOnPrimary">@color/on_primary</item>
+            <item name="colorSecondary">@color/secondary</item>
+            <item name="colorOnSecondary">@color/on_secondary</item>
+            <item name="android:windowLightStatusBar">true</item>
+            <item name="background">@color/background</item>
+
+    </style>
+    <style name="background" parent="">
+    <item name="android:background">@drawable/backgraound_location</item>
+    <item name="android:textSize">14sp</item>
+    <item name="android:fontFamily">@font/roboto_medium</item>
+    <item name="chipStartPadding">8dp</item>
+    <item name="chipEndPadding">8dp</item>
+</style>
+    <style name="shapePhoto" parent="">
+     <item name="cardCornerRadius">@dimen/spacing_medium</item>
+
+    </style>
+</resources>

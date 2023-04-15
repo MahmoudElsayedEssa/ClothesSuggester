@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\me029\\.gradle\\daemon\\7.5\\com.example.clothessuggester.app-mergeDebugResources-35:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\me029\\.gradle\\daemon\\7.5\\com.example.clothessuggester.app-main-38:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "com.example.clothessuggester.app-mergeDebugResources-35:/layout/activity_main.xml",
+        "source": "com.example.clothessuggester.app-main-38:/layout/activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\me029\\.gradle\\daemon\\7.5\\com.example.clothessuggester.app-mergeDebugResources-35:\\layout\\weather_item.xml",
+        "source": "C:\\Users\\me029\\.gradle\\daemon\\7.5\\com.example.clothessuggester.app-main-38:\\layout\\weather_item.xml"
+    }
+]

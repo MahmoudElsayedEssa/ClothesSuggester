@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#DEFFFFFF</color>
+
+    <color name="primary">#ACDEF3</color>
+    <color name="on_primary">@color/white</color>
+
+    <color name="secondary">#DE53ADE0</color>
+    <color name="on_secondary">@color/tertiary_38</color>
+
+    <color name="tertiary_87">#DE000000</color>
+    <color name="tertiary_60">#99000000</color>
+    <color name="tertiary_38">#61000000</color>
+    <color name="tertiary_10">#1A000000</color>
+
+    <color name="background">@color/white</color>
+
+    <color name="unselected_chip">@color/primary</color>
+    <color name="backgraound_weather">#FAFAFA</color>
+</resources>

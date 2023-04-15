@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="8dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginStart="8dp"
+    >
+
+    <View
+        android:id="@+id/recycler_view_intervals"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/image_corner"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/weather_degree_max"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/spacing_medium"
+        android:layout_marginEnd="16dp"
+        android:text="@string/weatherDegree"
+        android:textColor="@color/white"
+        android:textSize="@dimen/font_size_title_xx_large"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@id/weather_icon"
+        app:layout_constraintStart_toStartOf="@+id/recycler_view_intervals"
+        app:layout_constraintTop_toTopOf="@+id/weather_icon" />
+
+    <TextView
+        android:id="@+id/weather_degree_min"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/spacing_medium"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/weatherDegree"
+        android:textColor="@color/white"
+        android:textSize="@dimen/font_size_title_large"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/weather_degree_max"
+        app:layout_constraintStart_toStartOf="@+id/weather_degree_max"
+        app:layout_constraintTop_toBottomOf="@+id/weather_degree_max" />
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/roboto_medium"
+        android:text="@string/today"
+        android:textColor="@color/white"
+        android:textSize="@dimen/font_size_title_x_large"
+        app:layout_constraintEnd_toEndOf="@+id/weather_icon"
+        app:layout_constraintTop_toTopOf="@+id/recycler_view_intervals" />
+
+
+    <ImageView
+        android:id="@+id/weather_icon"
+        android:layout_width="@dimen/width_weather"
+        android:layout_height="@dimen/width_weather"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="@dimen/spacing_medium"
+        app:layout_constraintEnd_toEndOf="@+id/recycler_view_intervals"
+        app:layout_constraintTop_toBottomOf="@+id/date"
+        tools:srcCompat="@drawable/cloud_sun_2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

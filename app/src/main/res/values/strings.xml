@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Clothes Suggester</string>
+    <string name="today">Today</string>
+    <string name="happy_day_for_you">Happy day for you</string>
+    <string name="cairo">Cairo</string>
+    <string name="suggestions">you can wear this to match the weather</string>
+    <string name="weatherDegree">12 Cٌّّّْْْ</string>
+    <string name="next">Next</string>
+    <string name="stay_classy_with_us">    Stay classy with us</string>
+
+    <string name="temperature_format">%d°C</string>
+    <string name="date_format">%s %s</string>
+</resources>
