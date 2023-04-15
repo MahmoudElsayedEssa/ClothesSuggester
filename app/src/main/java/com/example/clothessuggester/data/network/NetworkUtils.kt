@@ -35,7 +35,6 @@ fun parseIntervals(response: String, previousClothesImage: Map<String, Int>): Li
             getClothesImageId(startTime, weatherType, intervals, previousClothesImage)
         intervals.add(Interval(startTime, temperature, weatherType, weatherImageId, clothesImageId))
     }
-//    PrefsUtil.startTimeAndImageId = intervals.associate { it.startTime to it.clothesImageId }
     return intervals
 }
 
