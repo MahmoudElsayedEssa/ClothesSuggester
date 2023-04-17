@@ -23,7 +23,7 @@ object Constants {
 
     const val MIN_MAX_TEMPERATURE = "temperatureMin,temperatureMax"
     const val ONE_DAY_TIME_STEPS = "1d"
-    const val CAIRO_LOCATION = "30.0444,-31.2357"
+    const val CAIRO_LOCATION = "30.033333,31.233334"
     const val CAIRO_TIME_ZONE = "Africa/Cairo"
     const val CELSIUS_UNITS = "metric"
 

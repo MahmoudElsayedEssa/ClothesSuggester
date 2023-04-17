@@ -4,6 +4,25 @@
             "outputFile": "com.example.clothessuggester.app-mergeDebugResources-34:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
+                    "source": "C:\\Users\\me029\\Downloads\\ClothesSuggester4165\\app\\src\\main\\res\\values-night\\themes.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "102",
+                        "endLines": "9",
+                        "endColumns": "12",
+                        "endOffsets": "577"
+                    },
+                    "to": {
+                        "startLines": "9",
+                        "startColumns": "4",
+                        "startOffsets": "687",
+                        "endLines": "16",
+                        "endColumns": "12",
+                        "endOffsets": "1155"
+                    }
+                },
+                {
                     "source": "C:\\Users\\me029\\.gradle\\caches\\transforms-3\\8d9343f569df63b726615d18b45679d4\\transformed\\appcompat-1.6.1\\res\\values-night-v8\\values-night-v8.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
@@ -35,25 +54,6 @@
                         "startOffsets": "1160,1235,1346,1435,1536,1643,1750,1849,1956,2059,2147,2271,2373,2475,2591,2693,2807,2935,3051,3173,3309,3429,3563,3683,3795,4010,4127,4251,4381,4503,4641,4775,4891",
                         "endColumns": "74,110,88,100,106,106,98,106,102,87,123,101,101,115,101,113,127,115,121,135,119,133,119,111,125,116,123,129,121,137,133,115,119",
                         "endOffsets": "1230,1341,1430,1531,1638,1745,1844,1951,2054,2142,2266,2368,2470,2586,2688,2802,2930,3046,3168,3304,3424,3558,3678,3790,3916,4122,4246,4376,4498,4636,4770,4886,5006"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\me029\\Downloads\\ClothesSuggesterMahmoud\\app\\src\\main\\res\\values-night\\themes.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "102",
-                        "endLines": "9",
-                        "endColumns": "12",
-                        "endOffsets": "577"
-                    },
-                    "to": {
-                        "startLines": "9",
-                        "startColumns": "4",
-                        "startOffsets": "687",
-                        "endLines": "16",
-                        "endColumns": "12",
-                        "endOffsets": "1155"
                     }
                 }
             ]

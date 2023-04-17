@@ -4,35 +4,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/backgroundjpg">
-
-    <TextView
-        android:id="@+id/text_welcome"
-        android:layout_width="170dp"
-        android:layout_height="25dp"
-        android:background="@drawable/text_background"
-        android:gravity="center"
-        android:text="@string/stay_classy_with_us"
-        android:textColor="#AB000000"
-        android:textSize="17sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+ >
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recycler_view_intervals"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="16dp"
         android:layout_marginTop="16dp"
         android:orientation="horizontal"
         android:paddingVertical="4dp"
+        android:clipToPadding="true"
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/text_welcome"
+        app:layout_constraintTop_toTopOf="parent"
         tools:listitem="@layout/weather_item" />
 
     <TextView
